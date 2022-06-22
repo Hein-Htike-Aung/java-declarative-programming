@@ -1,0 +1,29 @@
+Consumers<T> -> 
+	(T) -> void 
+		accept(), andThen()
+BiConsumers<T,U> -> 
+	(T, U) -> void
+		accept(), andThen()
+
+Function<T, R> -> 
+	(T) -> R 
+		apply(), andThen()
+BiFunction(T, U, R) -> 
+	(T, U) -> R 
+		apply(), andThen()
+
+Predicate<T> -> 
+	(T) -> Boolean
+		test(), and(), or(), isEqual()
+BiPredicate<T, U> -> 
+	(T, U) -> Boolean
+		test(), and(), or()
+
+Supplier<T> -> 	
+	() -> T
+		get()
+
+Runnable ->
+   	 () -> void
+       		 run()
+

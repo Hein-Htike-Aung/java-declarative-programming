@@ -1,0 +1,9 @@
+- No State (Not Depend on other Global State)
+
+- Pure Function
+
+- no side effect to outside the function
+
+- Higher Order Function
+    * The function takes one or more functions as parameter
+    * the function return another function as result
